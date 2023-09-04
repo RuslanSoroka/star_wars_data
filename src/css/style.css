@@ -1,0 +1,104 @@
+.container {
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-logo {
+    background-color: white;
+    border-radius: 35px;
+    width: 90px;
+}
+
+.label {
+    border-radius: 35px;
+    width: 90px;
+}
+
+.bg-page {
+    background-image: url(../img/bg.jpg);
+}
+
+.place-for-select {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    align-items: center;
+    padding-bottom: 7px;
+    margin-right: 15px;
+}
+
+.btn--position {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.bg-success {
+    border-radius: 10px;
+}
+
+.back-button {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--nxt {
+    margin-right: 20px;
+}
+
+.btn--prvsl{
+    margin-left: 20px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.d-n {
+    display: none;
+}
+
+.err {
+    font-size: 30px;
+}
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3); /* Півпрозорий фон (за бажанням) */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
