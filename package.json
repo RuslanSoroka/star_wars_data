@@ -1,0 +1,17 @@
+{
+  "name": "hwork23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.1",
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "babel src/ -o dist/babel.js --minified -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
